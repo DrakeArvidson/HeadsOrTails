@@ -20,7 +20,7 @@ public class Toss {
 		return winOrLose;
 	}
 	
-	public boolean flip() {
+	public void flip() {
 		Random rand = new Random();
 		int randomNum = rand.nextInt((2 - 1) + 1) + 1;
 		if (randomNum == 1) {
@@ -35,6 +35,6 @@ public class Toss {
 			System.out.println("randomNum was something other than 1 or 2, this case should never happen");
 			result = false;
 		}
-		return guess == result;
+		winOrLose = guess == result;
 	}
 }
