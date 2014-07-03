@@ -1,0 +1,1 @@
+Simple game for calling a coin toss, heads or tails.  Going to create a simple GUI that takes the user's input (guess) and then shows the result of the toss.  Will also keep track of wins, losses, and win percentage.
